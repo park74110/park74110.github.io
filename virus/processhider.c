@@ -1,5 +1,6 @@
-gcc -shared -fPIC -o processhider.so processhider.c  
-
+/*
+* gcc -shared -fPIC -o processhider.so processhider.c  
+*/
 #define _GNU_SOURCE
 
 #include <stdio.h>
