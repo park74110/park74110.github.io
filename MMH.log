@@ -1,0 +1,24 @@
+MMHLog:2022/08/22 11:00:53.750891 [97m
+[0m
+MMHLog:2022/08/22 11:00:53.751802 [93m[-] Open yara file rules.yara failed![0m
+MMHLog:2022/08/22 11:01:00.810861 [97m
+[0m
+MMHLog:2022/08/22 11:01:11.104808 [97m
+[+] Start cleaning workminer program
+[+] /usr/.work/work32 don't exist 
+[+] /usr/.work/work64 don't exist
+[+] Start cleaning system processes
+[-] Related processes not found
+[-] Related processes not found
+[-] Related processes not found
+[-] Related processes not found
+[-] Related processes not found
+[+] Complete clean up the backdoor
+[+] Start Restore System command
+[+]  /usr/bin/curl normal
+[+] /usr/bin/wget normal
+[+] Clean hosts.deny
+[+] Mining virus file cleanup is complete
+[0m
+MMHLog:2022/08/22 11:01:32.392124 [97m
+[0m
